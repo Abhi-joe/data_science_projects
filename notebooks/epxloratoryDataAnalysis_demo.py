@@ -3,7 +3,7 @@ import numpy as np
 import os
 
 #getting file paths for test and train data sets
-parent_dir=os.path.join(os.path.pardir, 'data_science_projects')
+parent_dir=os.path.join(os.path.pardir, 'data_science_projects', 'datasets')
 train_data=os.path.join(parent_dir, 'train.csv')
 test_data=os.path.join(parent_dir, 'test.csv')
 
